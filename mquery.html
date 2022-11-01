@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/mquery.css">             
+        	<title>On boarding form</title>
+    	</head>
+    	<body>
+        	<div class="container">
+            		<form class="form" id="formvalidate" name="form" action="" method="post">
+				<div class="heading">
+					<h1>On boarding form</h1>
+				</div>
+				<div>
+					<h3>Personal details:</h3>
+				</div>
+				<div class="formcontrol">
+                			<label for="fname">Full name:</label>
+  					<input class="formwidth" type="text" id="fname" name="fname">
+				</div>
+				<div class="formcontrol">
+                			<label for="email">E mail:</label>
+                			<input class="formwidth" type="email" name="email" id="email">
+				</div>
+				<div class="formcontrol">
+					<label for="phone">Phone number:</label>
+  					<input class="formwidth" type="tel" id="phone" name="phone">
+				</div>
+				<div class="formcontrol">
+  					<label for="password">Password for job account:</label>
+  					<input class="formwidth" type="password" id="password" name="password">
+				</div>
+				<div class="formcontrol">
+					<label for="birthdaytime">Birthday (date and time):</label>
+  					<input class="formwidth" type="datetime-local" id="birthdaytime" name="birthdaytime">
+				</div>
+				<div class="formcontrol">
+					<label for="state">State: </label>
+					<select class="width" name="state" id="state">
+						<option value=""></option>
+                				<option value="Kerala">Kerala</option>
+                				<option value="Tamilnad">Tamilnad</option>
+                				<option value="Karnataka">Karnataka</option>
+						<option value="Andhrapradhesh">Andhra pradhesh</option>
+                			</select>
+				</div>
+				<div class="formcontrol">
+					<div>Address:</div>
+                			<label for="address"></label>
+                			<textarea name="address" id="address" class="addwidth"></textarea>
+				</div>
+				<div class="formcontrol">
+					<div class="formcontrol">
+						Gender:
+					</div>
+					<div>
+                				<input type="radio" name="gender" id="male">
+                				<label for="male">Male</label>
+                				<input type="radio" name="gender" id="female">
+                				<label for="female">Female</label>
+                				<input type="radio" name="gender" id="other">
+                				<label for="other">Other</label>
+					</div>
+				</div>
+				<div class="formcontrol">
+					<label for="quantity">How many programming languages you know:</label>
+  					<input class="formwidth" type="number" id="quantity" name="quantity">
+				</div>
+				<div class="formcontrol">
+					<label for="homepage">Add your homepage:</label>
+  					<input class="formwidth" type="url" id="homepage" name="homepage">
+				</div>
+				<div>
+                			<h3>Cerificates:</h3>
+				</div>
+				<div class="formcontrol">
+                			<label for="file">Upload your highest qualification certificte or experience certificate:</label>
+                			<input class="formwidth" type="file" name="file" id="file">
+				</div>
+				<div class="display">
+                			<input class="button" type="submit" value="Submit">
+  					<input class="button" type="reset">
+				</div>
+            		</form>
+        	</div>
+		<script src="assets/jquery.min.js"></script>
+		<script src="assets/jquery.validate.min.js"></script>
+                <script src="js/mquery.js"></script>
+    	</body>
+</html>

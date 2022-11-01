@@ -1,0 +1,155 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form{
+	border: 1px solid #000000;
+	box-shadow: 0px 2px 10px 0px;
+	disply: flex;
+	align-items: center;
+	background-color: #f7f2fa;
+	border-radius: 5px;
+	padding: 10px;
+	width: 500px;
+}
+h1{
+	color: #000000;
+	text-align: center;
+}
+.formcontrol{
+	margin-bottom: 10px;
+}
+.formcontrol label{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.formcontrol input{
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display-block;
+	padding: 10px;
+	font-size: 14px;
+	font-family: inherit;
+}
+.display{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+.button{
+	padding: 10px 15px;
+	border: none;
+	background-color: #464746;
+	color: #ffffff;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 10px;
+}
+.button:hover{
+	background-color: #000000;
+}
+.width{
+	width: 498px;
+	padding: 10px;
+}
+.height{
+	height: 50px;
+}
+.formwidth{
+	width: 475px;
+}
+#address,#state{
+	border: none;
+	border-radius: 5px;
+}
+.formcontrol label.error{
+	color: red;
+	font-size: 15px;
+	display: block;
+	margin-top: 5px;
+}
+.formcontrol label.error.fail-alert{
+	line-height: 1;
+	padding: 2px 0 6px 6px;
+}
+.formcontrol input.valid.success-alert{
+	border: 2px solid green;
+	color: green;
+}
+.formcontrol input.error, textarea.error{
+	border: 1px dashed red;
+	font-weight: 300;
+	color: red;
+}
+.addwidth{
+	width: 490px;
+}
+@media (max-width: 2560px){
+	.form{
+		width: 1240px;
+	}
+	.formwidth{
+		width: 1215px;
+	}
+	.width{
+		width: 1238px;
+	}
+	.addwidth{
+		width: 1230px;
+	}
+	.form{
+		background-color: #d7d7d7;
+	}
+}
+@media (max-width: 1024px){
+	.form{
+		width: 940px;
+	}
+	.formwidth{
+		width: 915px;
+	}
+	.width{
+		width: 938px;
+	}
+	.addwidth{
+		width: 930px;
+	}
+	.form{
+		background-color: #c5c5c5;
+	}
+}
+@media (max-width: 768px){
+	.form{
+		width: 640px;
+	}
+	.formwidth{
+		width: 615px;
+	}
+	.width{
+		width: 638px;
+	}
+	.addwidth{
+		width: 630px;
+	}
+	.form{
+		background-color: #b3b3b3;
+	}
+}
+@media (max-width: 425px){
+	.form{
+		width: 240px;
+	}
+	.formwidth{
+		width: 215px;
+	}
+	.width{
+		width: 238px;
+	}
+	.addwidth{
+		width: 230px;
+	}
+	.form{
+		background-color: #a1a1a1;
+	}
+}
